@@ -1,6 +1,7 @@
 #include "slam6d/globals.icc"
 #include "spherical_quadtree/spherical_quadtree.h"
 #include <random>
+#include <iterator>
 
 std::random_device rd;
 std::mt19937 gen(rd());
